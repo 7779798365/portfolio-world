@@ -23,7 +23,7 @@ module.exports = [
     rules: {
       "react/prop-types": "off",
       "no-console": ["warn", { "allow": ["warn", "error"] }],
-      "quotes": ["error", "double"],
+      "quotes": "off",
       "semi": ["error", "always"]
     }
   }
