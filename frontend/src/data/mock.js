@@ -104,7 +104,7 @@ export const portfolioData = {
 export const submitContactForm = async (formData) => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      console.log("Mock form submission:", formData);
+      console.warn("Mock form submission:", formData);
       resolve({ success: true, message: "Message sent successfully! (Mock)" });
     }, 1000);
   });
